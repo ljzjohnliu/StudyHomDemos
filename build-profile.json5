@@ -69,6 +69,18 @@
           ]
         }
       ]
+    },
+    {
+      "name": "SimpleVideo",
+      "srcPath": "./SimpleVideo",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
     }
   ]
 }
