@@ -1,0 +1,50 @@
+{
+  "app": {
+    "signingConfigs": [
+      {
+        "name": "default",
+        "type": "HarmonyOS",
+        "material": {
+          "certpath": "/Users/bytedance/.ohos/config/auto_debug_StudyHomDemos_com.study.hom_350086000134523798.cer",
+          "storePassword": "0000001BABB7EB3AB78254568B91C1AD957845E451984B533B5AC85C237679AB55A93E63F5784C2F3D0FC4",
+          "keyAlias": "debugKey",
+          "keyPassword": "0000001B43AC359DA5BF7F7504BB0BC8DB6C88E6A8EB06241331026E815532E04202D48974820F827C2983",
+          "profile": "/Users/bytedance/.ohos/config/auto_debug_StudyHomDemos_com.study.hom_350086000134523798.p7b",
+          "signAlg": "SHA256withECDSA",
+          "storeFile": "/Users/bytedance/.ohos/config/auto_debug_StudyHomDemos_com.study.hom_350086000134523798.p12"
+        }
+      }
+    ],
+    "products": [
+      {
+        "name": "default",
+        "signingConfig": "default",
+        "compileSdkVersion": "4.0.0(10)",
+        "compatibleSdkVersion": "4.0.0(10)",
+        "runtimeOS": "HarmonyOS",
+      }
+    ],
+    "buildModeSet": [
+      {
+        "name": "debug",
+      },
+      {
+        "name": "release"
+      }
+    ]
+  },
+  "modules": [
+    {
+      "name": "entry",
+      "srcPath": "./entry",
+      "targets": [
+        {
+          "name": "default",
+          "applyToProducts": [
+            "default"
+          ]
+        }
+      ]
+    }
+  ]
+}
