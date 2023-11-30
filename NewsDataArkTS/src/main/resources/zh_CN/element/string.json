@@ -10,7 +10,11 @@
     },
     {
       "name": "EntryAbility_label",
-      "value": "三方库使用"
+      "value": "新闻"
+    },
+    {
+      "name": "button_http",
+      "value": "测试Http"
     }
   ]
 }
